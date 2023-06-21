@@ -8,17 +8,17 @@ html {
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 300;
+    color: black;
 }
 
 .item img:hover {
     transform: scale(1.05);
     transition: all ease;
-    border-radius: 15px;
-    box-shadow: 0 0 5px rgb(136, 219, 140);
+    box-shadow: 0 0 5px rgb(138, 226, 241);
 }
 
 .heading {
-    font-size: 62px;
+    font-size: 75px;
     font-family: 'Amatic SC', cursive;
 }
 
@@ -27,14 +27,88 @@ a {
 }
 
 #logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border-radius: 10px;
 }
 
 .heading,
 .recipe-title {
     text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    color: black;
+}
+
+.item {
+    height: 300px;
+    width: 400px;
+    margin: 0 0.5em 0 0.5em;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item p {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    height: 781px;
+    border-radius: 10px;
+    margin-right: 1em;
+    color: black;
+}
+
+.left img {
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.right-top {
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 500px;
+    padding: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0
+}
+
+.steps-container {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 1em;
+
+}
+
+.ingredients-container {
+    border-radius: 10px;
+    background-color: tan;
+    padding: 20px;
+}
+
+.recipe-title {
+    color: black;
 }
