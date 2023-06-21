@@ -33,3 +33,8 @@ a {
     margin-right: auto;
     display: block;
 }
+
+.heading,
+.recipe-title {
+    text-align: center;
+}
